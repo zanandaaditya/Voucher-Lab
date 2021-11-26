@@ -1,0 +1,312 @@
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  font-size: 14px;
+}
+
+.page-content .panel-title {
+  margin-bottom: 16px;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.page-content .panel-text {
+  margin-bottom: 32px;
+  font-size: 13px;
+  opacity: 0.5;
+}
+
+.page-content img {
+  max-height: 550px;
+  width: auto;
+}
+
+.page-content .username {
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.page-content .password {
+  margin-bottom: 16px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.page-content .cookies {
+  font-size: 13px;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.page-content .btn-login {
+  background-color: #EF5DA8;
+  border-radius: 100px;
+  color: white;
+  font-size: 16px;
+  font-weight: 700;
+  border: 0;
+}
+
+.page-content .btn-socialmedia {
+  border: 1px solid;
+  max-width: 200px;
+  border-radius: 100px;
+  margin-bottom: 15px;
+}
+
+.page-content .btn-socialmedia .text {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.page-content .text-havent {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.navbar-barbar {
+  margin-bottom: 50px;
+  background-color: #003459;
+}
+
+.navbar-brand img {
+  max-width: 140px;
+}
+
+.input-group {
+  width: 550px;
+}
+
+.input-group .inputsearch {
+  width: 400px;
+  max-width: 400px;
+  height: 35px;
+  font-size: 12px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  -webkit-box-shadow: 1px 1px 1px 1px #E5E5E5;
+          box-shadow: 1px 1px 1px 1px #E5E5E5;
+}
+
+.input-group .btn-search {
+  height: 35px;
+  width: auto;
+  border-radius: 0 2px 2px 0 !important;
+  -webkit-box-shadow: 1px 1px 1px 1px #E5E5E5;
+          box-shadow: 1px 1px 1px 1px #E5E5E5;
+}
+
+.btn-register {
+  max-width: 100px;
+  font-size: 14px;
+}
+
+.navbar-nav .signup {
+  border-left: 1px solid #E5E5E5;
+}
+
+.navbar-nav a {
+  text-decoration: none;
+  color: #E5E5E5 !important;
+  font-weight: 500;
+}
+
+.navbar-nav .nav-item .list-dw a {
+  text-decoration: none;
+  color: #000 !important;
+  font-weight: 500;
+}
+
+.navbar-collapse {
+  -webkit-box-flex: 0;
+      -ms-flex-positive: 0;
+          flex-grow: 0;
+}
+
+.carousel-inner .carousel-item img {
+  width: 1110px;
+  height: 400px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  -webkit-box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.section-categories {
+  margin-top: 50px;
+}
+
+.section-categories h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-categories .card {
+  background-color: #003459;
+  height: 50px;
+}
+
+.section-categories h5 {
+  color: #fdfdfd;
+  font-size: 14px;
+}
+
+.section-product {
+  margin-top: 50px;
+}
+
+.section-product .trend-product h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-product .trend-product .card {
+  border-radius: 6px 6px 0 0 !important;
+}
+
+.section-product .trend-product .card .imagess {
+  max-height: 200px;
+  background-position: center;
+}
+
+.section-product .trend-product .card .discount {
+  position: absolute;
+  background-color: #EF5DA8;
+  color: white;
+  font-weight: 500;
+  height: 30px;
+  border-radius: 4px 0 4px 0;
+}
+
+.section-product .trend-product .card .card-body {
+  background-color: #003459;
+}
+
+.section-product .trend-product .card .card-body h5 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.section-product .trend-product .card .card-body p {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+
+.section-product .trend-product .card .card-body .btn-bought {
+  background-color: #EF5DA8;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 100px;
+}
+
+.section-our-product {
+  margin-top: 50px;
+}
+
+.section-our-product .our-product h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.section-our-product .our-product .card {
+  border-radius: 6px 6px 0 0 !important;
+}
+
+.section-our-product .our-product .card .imagess {
+  max-height: 200px;
+  background-position: center;
+}
+
+.section-our-product .our-product .card .discount {
+  position: absolute;
+  background-color: #EF5DA8;
+  color: white;
+  font-weight: 500;
+  height: 30px;
+  border-radius: 4px 0 4px 0;
+}
+
+.section-our-product .our-product .card .card-body {
+  background-color: #003459;
+}
+
+.section-our-product .our-product .card .card-body h5 {
+  font-size: 16px;
+  color: white;
+  font-weight: 500;
+}
+
+.section-our-product .our-product .card .card-body p {
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+}
+
+.section-our-product .our-product .card .card-body .btn-bought {
+  background-color: #EF5DA8;
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: 700;
+  width: 100%;
+  border-radius: 100px;
+}
+
+.section-footer {
+  background-color: #003459;
+  margin-top: 50px;
+}
+
+.section-footer a,
+.section-footer p {
+  text-decoration: none;
+  color: white;
+}
+
+.section-footer hr {
+  color: #E5E5E5;
+  margin: 0;
+}
+
+.img-login .img-login-pic {
+  margin-left: 20px;
+}
+
+.img-login .img-login-pic img {
+  width: 40px;
+  height: 40px;
+  background-size: cover;
+  border-radius: 100px;
+}
+
+.section-profile .profile-section .photo-profile img {
+  width: 150px;
+}
+
+.section-profile .profile-section .level {
+  background-color: #003459;
+  color: white;
+  border-radius: 100px;
+}
+
+.section-profile .profile-section .level p {
+  padding: 10px;
+  font-weight: 700;
+}
+
+.section-profile .text-input {
+  border-radius: 100px;
+}
+
+.section-profile #home .headingtitle {
+  font-size: 36px;
+  color: #003459;
+}
+/*# sourceMappingURL=main.css.map */

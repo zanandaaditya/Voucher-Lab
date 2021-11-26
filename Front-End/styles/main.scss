@@ -1,0 +1,304 @@
+body {
+    font-family: 'Open Sans', sans-serif !important;
+    font-size: 14px;
+}
+
+// LOGIN
+.page-content .panel-title {
+    margin-bottom: 16px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.page-content .panel-text {
+    margin-bottom: 32px;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+.page-content img {
+    max-height: 550px;
+    width: auto;
+}
+
+.page-content .username {
+    margin-bottom: 16px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.page-content .password {
+    margin-bottom: 16px;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.page-content .cookies {
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.page-content .btn-login {
+    background-color: #EF5DA8;
+    border-radius: 100px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    border: 0;
+}
+
+.page-content .btn-socialmedia {
+    border: 1px solid;
+    max-width: 200px;
+    border-radius: 100px;
+    margin-bottom: 15px;
+}
+
+.page-content .btn-socialmedia .text {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-content .text-havent {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+// LOGIN
+.navbar-barbar {
+    margin-bottom: 50px;
+    background-color: #003459;
+}
+
+.navbar-brand {
+    img {
+        max-width: 140px;
+    }
+}
+
+.input-group {
+    width: 550px;
+    .inputsearch {
+        width: 400px;
+        max-width: 400px;
+        height: 35px;
+        font-size: 12px;
+        border-radius: 2px 0 0 2px;
+        border: 0;
+        box-shadow: 1px 1px 1px 1px #E5E5E5;
+    }
+    .btn-search {
+        height: 35px;
+        width: auto;
+        border-radius: 0 2px 2px 0 !important;
+        box-shadow: 1px 1px 1px 1px #E5E5E5;
+    }
+}
+
+.btn-register {
+    max-width: 100px;
+    font-size: 14px;
+}
+
+.navbar-nav {
+    .signup {
+        border-left: 1px solid #E5E5E5;
+    }
+    a {
+        text-decoration: none;
+        color: #E5E5E5 !important;
+        font-weight: 500;
+    }
+    .nav-item {
+        .list-dw {
+            a {
+                text-decoration: none;
+                color: #000 !important;
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.carousel-inner {
+    .carousel-item {
+        img {
+            width: 1110px;
+            height: 400px;
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            border-radius: 10px;
+            box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.2);
+        }
+    }
+}
+
+.section-categories {
+    margin-top: 50px;
+    h3 {
+        font-size: 24px;
+        font-weight: 700;
+    }
+    .card {
+        background-color: #003459;
+        height: 50px;
+    }
+    h5 {
+        color: #fdfdfd;
+        font-size: 14px;
+    }
+}
+
+.section-product {
+    margin-top: 50px;
+    .trend-product {
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .card {
+            border-radius: 6px 6px 0 0 !important;
+            .imagess {
+                max-height: 200px;
+                background-position: center;
+            }
+            .discount {
+                position: absolute;
+                background-color: #EF5DA8;
+                color: white;
+                font-weight: 500;
+                height: 30px;
+                border-radius: 4px 0 4px 0;
+            }
+            .card-body {
+                background-color: #003459;
+                h5 {
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 500;
+                }
+                p {
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 700;
+                }
+                .btn-bought {
+                    background-color: #EF5DA8;
+                    text-align: center;
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 700;
+                    width: 100%;
+                    border-radius: 100px;
+                }
+            }
+        }
+    }
+}
+
+.section-our-product {
+    margin-top: 50px;
+    .our-product {
+        h3 {
+            font-size: 24px;
+            font-weight: 700;
+        }
+        .card {
+            border-radius: 6px 6px 0 0 !important;
+            .imagess {
+                max-height: 200px;
+                background-position: center;
+            }
+            .discount {
+                position: absolute;
+                background-color: #EF5DA8;
+                color: white;
+                font-weight: 500;
+                height: 30px;
+                border-radius: 4px 0 4px 0;
+            }
+            .card-body {
+                background-color: #003459;
+                h5 {
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 500;
+                }
+                p {
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 700;
+                }
+                .btn-bought {
+                    background-color: #EF5DA8;
+                    text-align: center;
+                    font-size: 16px;
+                    color: white;
+                    font-weight: 700;
+                    width: 100%;
+                    border-radius: 100px;
+                }
+            }
+        }
+    }
+}
+
+.section-footer {
+    background-color: #003459;
+    margin-top: 50px;
+    a,
+    p {
+        text-decoration: none;
+        color: white;
+    }
+    hr {
+        color: #E5E5E5;
+        margin: 0;
+    }
+}
+
+.img-login {
+    .img-login-pic {
+        margin-left: 20px;
+        img {
+            width: 40px;
+            height: 40px;
+            background-size: cover;
+            border-radius: 100px;
+        }
+    }
+}
+
+.section-profile {
+    .profile-section {
+        .photo-profile {
+            img {
+                width: 150px;
+            }
+        }
+        .level {
+            background-color: #003459;
+            color: white;
+            border-radius: 100px;
+            p {
+                padding: 10px;
+                font-weight: 700;
+            }
+        }
+    }
+    .text-input {
+        border-radius: 100px;
+    }
+    #home {
+        .headingtitle {
+            font-size: 36px;
+            color: #003459;
+        }
+    }
+}
