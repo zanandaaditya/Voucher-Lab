@@ -31,7 +31,7 @@
     <link href="https://cdn.jsdelivr.net/npm/weathericons@2.1.0/css/weather-icons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.css" rel="stylesheet" />
 
-
+    </style>
 </head>
 
 <body>
@@ -40,7 +40,7 @@
         <nav class="navbar navbar-expand-sm navbar-default">
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li class="">
                         <a href="index.html"><i class
                             ="menu-icon fa fa-laptop"></i>Dashboard </a>
                     </li>
@@ -49,7 +49,7 @@
                     <li class="">
                         <a href="products-list.html"> <i class="menu-icon fa fa-list"></i>Products List</a>
                     </li>
-                    <li class="">
+                    <li class="active">
                         <a href="add-products.html"> <i class="menu-icon fa fa-plus"></i>Add Products</a>
                     </li>
 
@@ -103,54 +103,52 @@
         <!-- /#header -->
         <!-- Content -->
         <div class="content">
-            <!-- Animated -->
-            <div class="animated fadeIn">
-                <!-- Widgets  -->
+            <section class="section-content">
                 <div class="row">
-                    <div class="col-lg-6 col-md-6">
+                    <div class="col-lg-12">
                         <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">Add Products</strong>
+                            </div>
                             <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-1">
-                                        <i class="pe-7s-cash"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text">Rp. <span class="count">123901212</span></div>
-                                            <div class="stat-heading">Revenue</div>
-                                        </div>
+                                <!-- Credit Card -->
+                                <div id="">
+                                    <div class="card-body">
+                                        <form action="#" method="post">
+                                            <div class="form-group">
+                                                <label for="name-products" class="control-label mb-1">Name</label>
+                                                <input id="name-products" name="name-products" type="text" class="form-control" placeholder="Mobile Legends 1000 Diamond">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="price-products" class="control-label mb-1">Price</label>
+                                                <input id="price-products" name="price-products" type="number" class="form-control price-products" placeholder="100000">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="desc-products" class="control-label mb-1">Description</label>
+                                                <textarea name="desc-products" id="" cols="20" rows="10" class="form-control desc-products" placeholder="1000 Diamond very cheap...">
+                                                </textarea>
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="photo-products" class="control-label mb-1">Photo</label>
+                                                <input id="photo-products" name="photo-products" type="file" class="form-control photo-products p-1" placeholder="100000">
+                                            </div>
+                                            <div>
+                                                <button id="add-button" type="submit" class="btn btn-md btn-success btn-block">
+                                                    Add Products
+                                                </button>
+                                            </div>
+                                        </form>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
-                    </div>
 
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-2">
-                                        <i class="pe-7s-cart"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">3435</span></div>
-                                            <div class="stat-heading">Transaction</div>
-                                        </div>
-                                    </div>
-                                </div>
                             </div>
                         </div>
+                        <!-- .card -->
+
                     </div>
                 </div>
-                <!-- /Widgets -->
-                <!--  /Traffic -->
-                <div class="clearfix"></div>
+            </section>
 
-                <!-- /.orders -->
-                <!-- /#add-category -->
-            </div>
-            <!-- .animated -->
         </div>
         <!-- /.content -->
         <div class="clearfix"></div>

@@ -31,7 +31,7 @@
     <link href="https://cdn.jsdelivr.net/npm/weathericons@2.1.0/css/weather-icons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.css" rel="stylesheet" />
 
-
+    </style>
 </head>
 
 <body>
@@ -40,17 +40,17 @@
         <nav class="navbar navbar-expand-sm navbar-default">
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li class="">
                         <a href="index.html"><i class
                             ="menu-icon fa fa-laptop"></i>Dashboard </a>
                     </li>
-                    <li class="menu-title">My Products</li>
+                    <li class="menu-title">My Product</li>
                     <!-- /.menu-title -->
-                    <li class="">
-                        <a href="products-list.html"> <i class="menu-icon fa fa-list"></i>Products List</a>
+                    <li class="active">
+                        <a href="products-list.html"> <i class="menu-icon fa fa-list"></i>Produts List</a>
                     </li>
                     <li class="">
-                        <a href="add-products.html"> <i class="menu-icon fa fa-plus"></i>Add Products</a>
+                        <a href="add-products.html"> <i class="menu-icon fa fa-plus"></i>Add Produts</a>
                     </li>
 
                     <!-- <li class="menu-title">Foto Barang</li> -->
@@ -101,56 +101,85 @@
             </div>
         </header>
         <!-- /#header -->
-        <!-- Content -->
-        <div class="content">
-            <!-- Animated -->
-            <div class="animated fadeIn">
-                <!-- Widgets  -->
-                <div class="row">
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-1">
-                                        <i class="pe-7s-cash"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text">Rp. <span class="count">123901212</span></div>
-                                            <div class="stat-heading">Revenue</div>
-                                        </div>
-                                    </div>
-                                </div>
+        <div class="breadcrumbs">
+            <div class="breadcrumbs-inner">
+                <div class="row m-0">
+                    <div class="col-sm-4">
+                        <div class="page-header float-left">
+                            <div class="page-title">
+                                <h1>Update Products</h1>
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-lg-6 col-md-6">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="stat-widget-five">
-                                    <div class="stat-icon dib flat-color-2">
-                                        <i class="pe-7s-cart"></i>
-                                    </div>
-                                    <div class="stat-content">
-                                        <div class="text-left dib">
-                                            <div class="stat-text"><span class="count">3435</span></div>
-                                            <div class="stat-heading">Transaction</div>
-                                        </div>
-                                    </div>
-                                </div>
+                    <div class="col-sm-8">
+                        <div class="page-header float-right">
+                            <div class="page-title">
+                                <ol class="breadcrumb text-right">
+                                    <li><a href="products-list.html">Products</a></li>
+                                    <li class="active">Update</li>
+                                </ol>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- /Widgets -->
-                <!--  /Traffic -->
-                <div class="clearfix"></div>
-
-                <!-- /.orders -->
-                <!-- /#add-category -->
             </div>
-            <!-- .animated -->
+        </div>
+        <!-- Content -->
+        <div class="content">
+            <section class="section-content">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="card">
+                            <div class="card-header">
+                                <strong class="card-title">Update Products</strong>
+                            </div>
+                            <div class="card-body">
+                                <!-- Credit Card -->
+                                <div id="">
+                                    <div class="card-body">
+                                        <form action="#" method="post">
+                                            <div class="form-group">
+                                                <label for="name-products" class="control-label mb-1">Name</label>
+                                                <input id="name-products" name="name-products" type="text" class="form-control" value="Mobile Legends 1000 Diamond" placeholder="Mobile Legends 1000 Diamond">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="price-products" class="control-label mb-1">Price</label>
+                                                <input id="price-products" name="price-products" type="number" class="form-control price-products" value="100000" placeholder="Mobile Legends 1000 Diamond">
+                                            </div>
+                                            <div class="form-group">
+                                                <label for="desc-products" class="control-label mb-1">Description</label>
+                                                <textarea name="desc-products" id="" rows="10" class="form-control desc-products" placeholder="1000 Diamond very cheap..." value="10000">Mobile legend game have diamond to get best game and to reach winner again and again</textarea>
+                                            </div>
+
+
+                                            <div class="form-group">
+                                                <label for="photo-products" class="control-label mb-1">Photo</label>
+                                                <div class="card">
+                                                    <div class="card-body">
+                                                        <div class="image-products">
+                                                            <img src="images/productpic.jpg" alt="" style="max-width: 250px;">
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <input id="photo-products" name="photo-products" type="file" class="form-control photo-products p-1" placeholder="100000">
+                                            </div>
+                                            <div>
+                                                <button id="add-button" type="submit" class="btn btn-md btn-success btn-block">
+                                                    Update Products
+                                                </button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <!-- .card -->
+
+                    </div>
+                </div>
+            </section>
+
         </div>
         <!-- /.content -->
         <div class="clearfix"></div>
